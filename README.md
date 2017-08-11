@@ -15,10 +15,14 @@ This Sinatra web app works as follows:
 
 In order to use this app, you should do the following:
 
-1. Create an AWS S3 bucket.
-2. Create an IAM user with access limited to S3.
-3. Document the access key ID and secret access key for the user.
-4. Create a *local\_env.rb* file with the access key ID and secret access key  
+1. Run the following command to install the aws-sdk gem:
+
+	`gem install aws-sdk`
+
+2. Create an AWS S3 bucket.
+3. Create an IAM user with access limited to S3.
+4. Document the access key ID and secret access key for the user.
+5. Create a *local\_env.rb* file with the access key ID and secret access key  
 	- see */lib/local\_env.rb.sample* for example
 
 **Resources**
